@@ -8,6 +8,7 @@ defineProps({
 </script>
 
 <template>
+  <p class="test">TEST</p>
   <div class="greetings">
     <h1 class="green">{{ msg }}</h1>
     <h3>
