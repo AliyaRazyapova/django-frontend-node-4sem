@@ -1,17 +1,12 @@
 <template>
-  <button @click="clickHandler">
+  <button>
     <slot />
   </button>
 </template>
 
 <script>
 export default {
-  name: "MyButton",
-  methods: {
-    clickHandler(event) {
-      console.log('CLICK', event);
-    }
-  }
+  name: "MyButton"
 }
 </script>
 

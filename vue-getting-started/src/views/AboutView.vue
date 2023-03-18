@@ -5,10 +5,9 @@ import MyButton from "@/components/MyButton.vue";
 <template>
   <div class="about">
     <h1>This is an about page</h1>
-
     <hr>
     <p>Count: {{count}}</p>
-    <MyButton>Button from App component</MyButton>
+    <MyButton @click="increment">Button from App component</MyButton>
   </div>
 </template>
 
@@ -18,6 +17,12 @@ export default {
     return {
       count: 0,
     };
+  },
+  methods: {
+    increment() {
+      console.log("INCREMENT");
+      this.count++;
+    }
   }
 };
 </script>
