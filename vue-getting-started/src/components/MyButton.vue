@@ -19,7 +19,11 @@ export default {
     border-radius: 3px;
   }
 
-  button:hover {
+  button:hover, button:focus {
     border-color: var(--color-border-hover);
+  }
+
+  button:active {
+    background: var(--color-background-soft);
   }
 </style>
