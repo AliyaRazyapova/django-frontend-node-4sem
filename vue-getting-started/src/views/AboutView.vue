@@ -6,21 +6,21 @@ import MyButton from "@/components/MyButton.vue";
   <div class="about">
     <h1>This is an about page</h1>
 
-
-
-    <br>
-    <br>
-    <br>
-    <br>
-
+    <hr>
+    <p>Count: {{count}}</p>
     <MyButton>Button from App component</MyButton>
-    <br>
-    <br>
-    <br>
-    <br>
-
   </div>
 </template>
+
+<script>
+export default {
+  data() {
+    return {
+      count: 0,
+    };
+  }
+};
+</script>
 
 <style>
 @media (min-width: 1024px) {
