@@ -1,1 +1,1 @@
-# Django_frontend_node_4sem
+# Django frontend node 4sem
